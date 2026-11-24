@@ -1,11 +1,12 @@
-const CACHE_NAME = 'sh-notes-v1';
+const CACHE_NAME = 'sh-notes-v2';
 const FILES = [
   './',
   './index.html',
   './style.css',
   './script.js',
   './manifest.json',
-  './icon.svg'
+  './icon.svg',
+  './apple-touch-icon.png'
 ];
 
 self.addEventListener('install', event => {
